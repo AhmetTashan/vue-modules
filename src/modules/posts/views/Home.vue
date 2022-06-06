@@ -1,6 +1,5 @@
 <template>
-Ana Sayfa
+<div>
+    Ana Sayfa
+</div>
 </template>
-
-<script setup>
-</script>
