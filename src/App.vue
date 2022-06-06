@@ -1,10 +1,12 @@
 <template>
-    <Blank v-if="getTemplate === 'blank'">
-        <router-view/>
-    </Blank>
-    <Default v-if="getTemplate === 'default' || !getTemplate">
-        <router-view/>
-    </Default>
+    <div>
+        <Blank v-if="getTemplate === 'blank'">
+            <router-view/>
+        </Blank>
+        <Default v-if="getTemplate === 'default' || !getTemplate">
+            <router-view/>
+        </Default>
+    </div>
 </template>
 
 <script setup>
