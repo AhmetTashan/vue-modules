@@ -1,0 +1,4 @@
+.test {
+  //color: $default-color; // This will not work
+  color: var(--default-color);
+}
