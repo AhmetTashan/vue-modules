@@ -3,5 +3,6 @@
 </template>
 
 <style lang="scss">
-@import './styles/Module.scss';
+@import "../helpers-import";
+@import './styles/Module';
 </style>
